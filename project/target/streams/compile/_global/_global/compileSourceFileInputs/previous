@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.10":{"hashes":[["/Users/pzhang/ghq/github.com/peixunzhang/zionomicon/project/Dependencies.scala","5f6e02f6a6f443db6f34f4c03ceee4b015996bbe"]],"lastModifiedTimes":[]}}]
