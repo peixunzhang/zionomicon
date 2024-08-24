@@ -13,7 +13,8 @@ object ZIO {
   val echo = readLine.flatMap(line => printlnLine(line))
 }
 
-val foo = 1
-foo
 // val helloWorld = ZIO.attempt(print("Hello, ")) *> ZIO.attempt(print("World!\n")) 
 // print(helloWorld) 
+
+val foo = 1
+foo + 1

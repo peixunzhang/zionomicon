@@ -1,3 +1,5 @@
+package zionomicon
+
 import zio._
 
 object GroceryStore extends ZIOAppDefault {
