@@ -1,3 +1,4 @@
+import java.time.Duration
 // package zionomicon
 import scala.io.StdIn
 // import zio._
