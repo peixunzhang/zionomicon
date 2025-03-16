@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/zionomicon_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/Shop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GroceryStore$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/GroceryStore$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Shop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/Shop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zionomicon[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/zionomicon[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zionomicon/ZIO$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/zionomicon/ZIO$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zionomicon/ZIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/zionomicon/ZIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GroceryStore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pzhang/ghq/github.com/peixunzhang/zionomicon/target/scala-2.13/classes/GroceryStore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

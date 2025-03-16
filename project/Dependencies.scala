@@ -12,6 +12,8 @@ object Dependencies {
     "dev.zio" %% "zio" % zio,
     "dev.zio" %% "zio-test"          % zio % Test,
     "dev.zio" %% "zio-test-sbt"      % zio % Test,
-    "dev.zio" %% "zio-test-magnolia" % zio % Test
+    "dev.zio" %% "zio-test-magnolia" % zio % Test,
+    "org.tpolecat" %% "doobie-core" % "1.0.0-RC1",
+    "dev.zio" %% "zio-interop-cats" % "23.1.0.3"
   )
 }

@@ -1,0 +1,4 @@
+[debug] [zionomicon-build] Classpath dependencies List()
+[debug] [zionomicon-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'zionomicon-build' to '/Users/pzhang/ghq/github.com/peixunzhang/zionomicon/project/.bloop/zionomicon-build.json'
+[success] Generated .bloop/zionomicon-build.json
