@@ -79,3 +79,21 @@ object Fiber {
       _ <- ZIO.debug("fiber interrupted")
     } yield ()
   }
+
+  object ForkDaemonEx extends ZIOAppDefault {
+    val healthChecker: ZIO[Any, Nothing, Long] = ZIO.debug("Checking system health").repeat(Schedule.spaced(1.second)).onInterrupt(ZIO.debug("Health check interrupted"))
+
+    val parent: ZIO[Any, Nothing, Unit] = for {
+      _ <- ZIO.debug("Parent fiber begins execution")
+      _ <- healthChecker.forkDaemon
+      _ <- ZIO.sleep(5.seconds)
+      _ <- ZIO.debug("Shutting down the parent fiber")
+    } yield ()
+
+    def run: ZIO[Environment with ZIOAppArgs with Scope,Any,Any] = for {
+      fiber <- parent.fork
+      _ <- ZIO.sleep(1.second)
+      _ <- fiber.interrupt
+      _ <- ZIO.sleep(10.seconds)
+    } yield ()
+  }
