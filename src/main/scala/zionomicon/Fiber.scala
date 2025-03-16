@@ -66,3 +66,16 @@ object Fiber {
         _ <- ZIO.debug("fiber joined")
       } yield ()
   }
+
+
+  object InterruptFiberExample extends ZIOAppDefault {
+    lazy val doSomething: ZIO[Any, Nothing, Long] = ZIO.debug("soem long running").repeat(Schedule.spaced(2.seconds))
+
+    override def run = for {
+      _ <- ZIO.debug("strat")
+      fiber <- doSomething.fork
+      _ <- ZIO.sleep(5.seconds)
+      _ <- fiber.interrupt
+      _ <- ZIO.debug("fiber interrupted")
+    } yield ()
+  }
